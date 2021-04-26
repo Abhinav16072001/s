@@ -1,0 +1,56 @@
+#hidden-md{
+		display: none;
+	}
+#a{
+	display: block;
+}
+#header1{
+	font-size: 50px;
+}
+iframe{
+		width: 400px;
+		height: 150px;
+	}	
+
+@media(max-width: 1024px) and (min-width: 767px){
+	iframe{
+		width: 400px;
+		height: 180px;
+	}	
+}
+@media(max-width: 768px)and (min-width: 424px){
+
+	#head{
+		font-size: 30px;
+	}
+	iframe{
+		margin-top: -80px;
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		height: 200px;
+	}
+#hidden-md{
+		display: block;
+	}
+#a{
+	display: none;
+}
+#header1{
+		font-size: 40px;
+	}
+}
+@media(max-width: 424.5px){
+	#head{
+		font-size: 7vw;
+	}
+	iframe{
+		width: 320px;
+		height: 150px;
+	}
+#header1{
+		font-size: 30px;
+	}
+
+}
+
